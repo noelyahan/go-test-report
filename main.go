@@ -106,6 +106,7 @@ type (
 )
 
 func main() {
+	fmt.Println("modified v1")
 	rootCmd, _, _ := initRootCommand()
 	if err := rootCmd.Execute(); err != nil {
 		os.Exit(1)
